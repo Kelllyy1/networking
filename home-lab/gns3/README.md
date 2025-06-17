@@ -17,3 +17,5 @@ Simple vlan
 ## Ping test between VPCs on a LAN
 Configured an ip address and default gateway for both PCs and then tested communication between them both.
 ![alt text](two-pc-ping-test.png)
+
+Currently working in the https://github.com/Kelllyy1/networking/tree/main/home-lab/gns3/connecting-gns3-to-physical-router folder
