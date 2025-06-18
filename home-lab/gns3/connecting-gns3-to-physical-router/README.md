@@ -1,5 +1,5 @@
 # Connecting GNS3 to Physical Devices
-The goal is to connect GNS3 to phyiscal devices so that I can configure multiple virtual devices to my physical devices and not be restricted to the amount of physical clients I have. This will allow me to work on Active Directory and other similar projects.
+The goal is to connect GNS3 to phyiscal devices so that I can configure multiple virtual devices to my physical devices and not be restricted to the amount of physical clients I have. This will allow me to expand the devices available (VPCs) for more labs.
 
 ## Setting up the LAN in GNS3
 The first step was setting up the basic lan in GNS3, as seen in the screenshots within this folder
