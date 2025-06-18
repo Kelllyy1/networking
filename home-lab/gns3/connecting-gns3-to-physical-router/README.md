@@ -46,7 +46,7 @@ I was able to successfully install VyOS to add a router image to my GNS3 project
 
 Breaking the problem up is a better idea, that could help me to become "unstuck". My goals are to:
 - Design a network topology for my project
-- Implemement the topology in GNS3
+- Implemement the topology in GNS3 (I might simulate first in Packet Tracer)
 - Test
 - Replace the virtual end device with my physical gear (to create a hybrid environment)
 - Test
