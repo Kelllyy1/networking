@@ -43,3 +43,11 @@ I'll get to the bottom of this
 So the next step was to add a router to GNS3 and then connect that router to my phyisical router. The router images are not installed by default and the only available software is through Cisco's website via purchasing of the router iso image. The images are a bit pricey, so an alternative I came across was to use VyOS. Dear technical diary, I didn't think I would be the type of person to run a virtual machine - inside another virtual machine... but here I am.
 
 I was able to successfully install VyOS to add a router image to my GNS3 project, but I am still working to establish a successful connection between my router and my VPCs. Maybe I should break this problem up into smaller pieces...
+
+Breaking the problem up is a better idea, that could help me to become "unstuck". My goals are to:
+- Design a network topology for my project
+- Implemement the topology in GNS3
+- Test
+- Replace the virtual end device with my physical gear (to create a hybrid environment)
+- Test
+- Monitor the data through the network (with Wireshark, Grafana (snmpwalk?))
