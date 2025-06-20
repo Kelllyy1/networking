@@ -44,6 +44,7 @@ So the next step was to add a router to GNS3 and then connect that router to my 
 
 I was able to successfully install VyOS to add a router image to my GNS3 project, but I am still working to establish a successful connection between my router and my VPCs. Maybe I should break this problem up into smaller pieces...
 
+### New Plan/Pivot
 Breaking the problem up is a better idea, that could help me to become "unstuck". My goals are to:
 - Design a network topology for my project
 - Implemement the topology in GNS3 (I might simulate first in Packet Tracer)
@@ -51,3 +52,8 @@ Breaking the problem up is a better idea, that could help me to become "unstuck"
 - Replace the virtual end device with my physical gear (to create a hybrid environment)
 - Test
 - Monitor the data through the network (with Wireshark, Grafana (snmpwalk?))
+
+Current plan:
+- Virtual Network Design with Packet Tracer (Vizio?)
+- Physical replication with physical router and switch
+- Stretch goal: Make hybrid lab - replicate network in GNS3 & connect to physical devices (should I try to ssh?)
